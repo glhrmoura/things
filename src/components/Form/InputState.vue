@@ -5,7 +5,12 @@
     :class="styleClass"
     aria-label="Changes the status of a task"
   >
-    <img width="28px" height="28px" alt="Check icon" class="input-state__check-icon" />
+    <img
+      width="28px"
+      height="28px"
+      alt="Check icon"
+      class="input-state__check-icon"
+    />
   </button>
 </template>
 
@@ -17,17 +22,20 @@ export default {
       initialState: this.state,
     };
   },
+
   props: {
     state: {
       type: String,
       default: '',
     },
   },
+
   methods: {
     onClick() {
       if (this.checked || this.isReadOnly) return;
 
       this.checked = true;
+
       const updateState = () => {
         this.checked = false;
         this.$emit('updated-state', this.nextState);
@@ -36,19 +44,23 @@ export default {
       this.nextState !== 'finished' ? updateState() : setTimeout(updateState, 500);
     },
   },
+
   computed: {
     isReadOnly() {
       return !this.state;
     },
+
     nextState() {
       const initialStateIsFinished = this.initialState === 'finished';
       const targetState = initialStateIsFinished ? 'pending' : 'finished';
 
       return this.initialState === this.state ? targetState : this.initialState;
     },
+
     nextStateEqualInitialState() {
       return this.nextState === this.initialState;
     },
+
     styleClass() {
       return {
         [`input-state--${this.state}`]: true,

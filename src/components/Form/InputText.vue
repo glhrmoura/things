@@ -24,18 +24,25 @@ export default {
       focused: false,
     };
   },
+
   mounted() {
     this.$refs.rootElement.focus();
   },
+
   props: {
     name: String,
+
     id: String,
+
     value: String,
+
     placeholder: String,
   },
+
   methods: {
     onFocus() {
       this.$emit('focus');
+
       this.focused = true;
     },
   },
