@@ -9,6 +9,10 @@
 
 The application is a simple task manager developed using [VueJS](https://vuejs.org) on the frontend, and [Firebase](https://firebase.google.com) on the backend.
 
+## Demo
+
+[Things - To-Do List](https://astonishing-meringue-7e1211.netlify.app)
+
 ## Implementation notes
 
 ### Layout
