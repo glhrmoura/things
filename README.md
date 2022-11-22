@@ -2,7 +2,7 @@
   <img
 		style="object: contain; height: 150px"
 		src="https://raw.githubusercontent.com/glhrmoura/things/main/src/assets/images/logo.png"
-	>
+	/>
 </p>
 
 # :ballot_box_with_check: Things - To-Do List
