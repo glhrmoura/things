@@ -1,0 +1,5 @@
+export const TASK_LIST_STATES = {
+  EMPTY: 'EMPTY',
+  PENDING: 'PENDING',
+  FINISHED: 'FINISHED',
+};
