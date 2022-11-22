@@ -1,4 +1,11 @@
-# Things - To-Do List
+<p align="center">
+  <img
+		style="object: contain; height: 150px"
+		src="https://raw.githubusercontent.com/glhrmoura/things/main/src/assets/logo.png"
+	>
+</p>
+
+# :ballot_box_with_check: Things - To-Do List
 
 The application is a simple task manager developed using [VueJS](https://vuejs.org) on the frontend, and [Firebase](https://firebase.google.com) on the backend.
 
