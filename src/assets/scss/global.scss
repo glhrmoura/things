@@ -1,0 +1,74 @@
+@import './fonts';
+
+* {
+  box-sizing: border-box;
+  -webkit-user-drag: none;
+  font-family: $fontFamily;
+  color: $primaryTextColor;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0px;
+}
+
+button {
+  outline: none;
+
+  &:focus-visible {
+    outline: -webkit-focus-ring-color auto 1px;
+  }
+}
+
+a {
+  color: $primaryLinkColor;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.btn {
+  position: relative;
+  height: 40px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 32px;
+  background-color: #888888;
+  border-width: 1px;
+  font-weight: 700;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  background: transparent;
+  transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-primary {
+  @include button-variant($primaryColor, $primaryColor);
+}
+
+.btn-outline-primary {
+  color: $primaryColor;
+  @include button-variant(#fff, $primaryColor);
+}
