@@ -1,6 +1,9 @@
 <template>
   <div class="input-text__container">
-    <span v-if="focused" class="input-text__enter">Enter ↵</span>
+    <span v-if="focused" class="input-text__enter">
+			Enter ↵
+		</span>
+
     <input
       type="text"
       ref="rootElement"
