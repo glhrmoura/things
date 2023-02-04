@@ -5,7 +5,7 @@
 	/>
 </p>
 
-# :ballot_box_with_check: Things - To-Do List
+# Things - To-Do List
 
 The application is a simple task manager developed using [VueJS](https://vuejs.org) on the frontend, and [Firebase](https://firebase.google.com) on the backend.
 
