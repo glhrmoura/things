@@ -11,7 +11,7 @@ Simple task manager developed using [VueJS](https://vuejs.org) on the frontend, 
 
 ## Demo
 
-[Things - To-Do List](https://astonishing-meringue-7e1211.netlify.app)
+[**Things - To-Do List**](https://astonishing-meringue-7e1211.netlify.app)
 
 ## Implementation notes
 
