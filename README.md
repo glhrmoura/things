@@ -7,7 +7,7 @@
 
 # Things - To-Do List
 
-The application is a simple task manager developed using [VueJS](https://vuejs.org) on the frontend, and [Firebase](https://firebase.google.com) on the backend.
+Simple task manager developed using [VueJS](https://vuejs.org) on the frontend, and [Firebase](https://firebase.google.com) on the backend.
 
 ## Demo
 
