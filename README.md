@@ -19,8 +19,6 @@ Simple task manager developed using [VueJS](https://vuejs.org) on the frontend, 
 
 The application layout was developed with the massive use of [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layou) for diagramming and adaptation to various screen sizes. The style was in charge of [Sass](https://sass-lang.com) (variables, mixins and nested selectors) along with the [BEM](https://en.bem.info) methodology to structure and contextualize the CSS classes.
 
-*__Note__: I added an illustration and a title for when there are pending tasks, in my view it left the layout a little more uniform.*
-
 #### Data flow
 
 The application has a very simple flow, which involves: Application View, [Vuex](https://vuex.vuejs.org) (global state) and the [Realtime Database](https://firebase.google.com/docs/database). Below the flowchart represents how this flow occurs:
