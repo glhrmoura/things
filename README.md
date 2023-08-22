@@ -1,7 +1,7 @@
 <p align="center">
   <img
-		style="object: contain; height: 150px"
-		src="https://raw.githubusercontent.com/glhrmoura/things/main/src/assets/images/logo.png"
+		style="object: contain; white: 250px"
+		src="https://raw.githubusercontent.com/glhrmoura/things/main/src/assets/images/logo-white.png"
 	/>
 </p>
 
