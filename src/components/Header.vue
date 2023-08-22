@@ -5,7 +5,7 @@
       width="106px"
       alt="App logo"
       class="app-header__logo"
-      :src="require('@/assets/images/app-logo.svg')"
+      :src="require('@/assets/images/logo.svg')"
     />
   </header>
 </template>
