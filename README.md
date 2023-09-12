@@ -5,7 +5,7 @@
 	/>
 </p>
 
-## Things - To-Do List
+## Things: To-Do List
 
 Simple task manager developed using [VueJS](https://vuejs.org) on the frontend, and [Firebase](https://firebase.google.com) on the backend.
 
