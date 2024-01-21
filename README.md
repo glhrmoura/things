@@ -1,6 +1,6 @@
 <p align="center">
   <img
-		style="object: contain; width: 250px"
+		style="object: contain; height: 150px"
 		src="https://raw.githubusercontent.com/glhrmoura/things/main/src/assets/images/logo.png"
 	/>
 </p>
