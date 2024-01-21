@@ -1,13 +1,5 @@
 <template>
-  <header class="app-header">
-    <img
-      height="35px"
-      width="106px"
-      alt="App logo"
-      class="app-header__logo"
-      :src="require('@/assets/images/logo.svg')"
-    />
-  </header>
+  <header class="app-header"></header>
 </template>
 
 <style scoped lang="scss">
